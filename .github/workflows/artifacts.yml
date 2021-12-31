@@ -34,5 +34,9 @@ jobs:
           name: my-artifact
           path: disk_space.txt
 
+      - name: Composer Check
+        run: composer --version
+        
       - name: PHP Check
-        run: composer --version > php.txt
+        run: php --version
+        
