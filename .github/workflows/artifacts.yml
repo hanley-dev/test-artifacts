@@ -40,3 +40,5 @@ jobs:
       - name: PHP Check
         run: php --version
         
+      - name: PHP Run
+        run: php test.php
