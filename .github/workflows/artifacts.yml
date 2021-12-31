@@ -33,3 +33,6 @@ jobs:
         with:
           name: my-artifact
           path: disk_space.txt
+
+      - name: PHP Check
+        run: composer --version > php.txt
